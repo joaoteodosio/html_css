@@ -1,4 +1,4 @@
-site android
+site android, como projrto piloto.
 
 Curiosidades de Tecnologia
 
