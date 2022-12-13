@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/*versão mobile first*/
+
+
+*{
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background: black url(../image/back-phone.jpg) no-repeat;
+}
+
+main{
+    background-color: white;
+    width: 90vw;
+    margin: auto;
+}
