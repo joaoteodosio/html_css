@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flores do campo</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Flores do Campo</h1>
+    </header>
+
+    <section class="hero">
+        <div class="box-img">
+            <img class="responsiva" id="sabonete" src="img/img-sabonete01.webp" alt="">
+        </div>
+        <div class="box-txt">
+            <span>Sabonetes Natual</span>
+            <h2>Tenha uma pele limpa, suave e hidratada!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis itaque, consequuntur nesciunt sequi nemo id quo, cumque delectus eaque error dicta magni iste, officia repellendus a facere laudantium neque recusandae!</p>
+            <a target="_blank" href="https://w.app/flores_do_campo_sabonetes_artesanais" class="btn-hero">Entre em contato conosco</a>
+        </div>
+
+    </section>
+    <section class="especialidades">
+        <div class="box-item">
+            <h3>Especialidade 1</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adiisicing elit. Error id quidem reiciendis, accusamus eum recusandae vel enim. Maxime, pariatur quaerat maiores iure, delectus perspiciatis cumque totam amet, quasi eos nobis?</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 2</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea, ipsum quos rerum eaque eius tempora explicabo? Culpa minima reprehenderit harum, sequi neque dignissimos quis aut quibusdam, dolorem modi commodi ratione.</p>
+        </div>
+        <div class="box-item">
+            <h3>Especialidade 3</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat soluta reiciendis minima? Itaque delectus quod corrupti distinctio, nostrum, repudiandae animi voluptate perferendis sequi recusandae ipsa, quasi magnam sapiente fuga odio?</p>
+        </div>
+
+        <a target="_blank" href="https://w.app/flores_do_campo_sabonetes_artesanais" class=" m-top btn-hero">Entre em contato conosco</a>
+
+    </section>
+    
+
+    <footer>
+        <p>2025 &#169; Flores do Campo todos os direitos reservados.</p>
+    </footer>
+
+    <div class="whats">
+        <a target="_blank" href="https://w.app/flores_do_campo_sabonetes_artesanais">
+            <img width="50" src="img/whatsapp rosa.jpg" alt="whats rosa">
+        </a>
+    </div>
+    <script>
+
+        //pegar o elemento
+        const sabonete = document.getElementById('sabonete');
+         //evento quando o mouse estiver por cima da imagem
+        sabonete.addEventListener('mouseover', function(){
+            sabonete.src = "img/img-sabonete02.webp";
+
+        });
+
+        //evento quando o mouse sair de cima  da imagem
+        sabonete.addEventListener('mouseout', function(){
+            sabonete.src = "img/img-sabonete01.webp";
+
+        });
+    </script>
+    
+</body>
+</html>
