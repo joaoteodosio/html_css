@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>flex box align- self</title>
+    <title>flex box basis- auto</title>
     <style>
 
         .conteiner{
             background-color: blue;
+
             display: flex;
             flex-flow: row nowrap; 
-            
+           display: flex;
+           flex-flow: row wrap;
+
         }
 
         .item{
             background-color: brown;
+
             
             border: 2px solid black;
             text-align: center;
@@ -22,17 +26,18 @@
             
         }
 
-    </style>
+      
+</style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item" id="i1">A</div>
-        <div class="item" id="i2">B</div>
-        <div class="item" id="i3">C</div>
-        <div class="item" id="i4">D</div>
-        <div class="item" id="i5">E</div>
-        <div class="item" id="i6">F</div>
-        <div class="item" id="i7">G</div>
+        <div class="item">A</div>
+        <div class="item">outro conteudo</div>
+        <div class="item">C</div>
+        <div class="item">um conteudo bem maior</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
+        <div class="item">conteudo maior ainda, vai acupar mais espaco</div>
 
     </div>
 </body>
