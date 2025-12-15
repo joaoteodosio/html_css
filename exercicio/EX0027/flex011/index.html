@@ -14,7 +14,7 @@
             
         }
 
-        .item{
+        div.item{
             background-color: brown;
             padding: 10px;
             border: 2px solid yellow;
@@ -22,13 +22,38 @@
             flex-basis: 250px;
             
         }
+        div#cxA{
+            /*flex-shrink: 0;
+            flex-grow: 1;
+            flex-basis: 200px;*/
+            flex: 1 0 200px; /*simplificado*/
+        }
+
+        div#cxB{
+            /*flex-shrink: 1;
+            flex-grow: 1;
+            flex-basis: 150px;*/
+            flex: 1 1 150px;/* simplificado*/
+            
+        }
+
+        div#cxC{
+            /*flex-shrink: 8;
+            flex-grow: 1;
+            flex-basis: auto;*/
+            flex: 8 1 auto;
+            
+        }
+
+        
+
     </style>
 </head>
 <body>
     <div class="conteiner">
-        <div class="item"></div>
-        <div class="item">B</div>
-        <div class="item">C</div>
+        <div class="item" id="cxA">A</div>
+        <div class="item" id="cxB">B</div>
+        <div class="item" id="cxC">C</div>
         
     </div>
 </body>
