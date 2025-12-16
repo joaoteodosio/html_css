@@ -9,5 +9,8 @@ header > h1{
 }
 
 header > nav > a{
-    width: 90vw;
+    width: 80vw;
+}
+body{
+    background-color: blue;
 }
