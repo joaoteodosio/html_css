@@ -1,4 +1,4 @@
-@charset utf-8;
+@charset "UTF-8";
 
 *{
     margin: 0;
@@ -14,3 +14,29 @@ body{
     height: 100%vh;
 }
 
+p, h1, h2{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+header, section .normal{
+    padding: 20px;
+}
+
+section.flex-content{
+    padding: 20px;
+    background-color: rgb(156, 156, 156);
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.text-media{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article.media-text{
+    display: flex;
+    flex-flow: row wrap-reverse;
+}
